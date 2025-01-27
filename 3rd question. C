@@ -1,0 +1,13 @@
+//Write a program to calculate area of circle
+#include<stdio.h>
+int main(){
+
+float r,Area;
+printf("Enter the value of radius:");
+scanf("%f",&r);
+
+Area=3.14*r*r;
+printf("Area of circle in floating notation is:%f\n",Area);
+printf("Area of circle in exponential notation is:%e\n",Area);
+return 0;
+}
