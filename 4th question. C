@@ -1,0 +1,17 @@
+//write a program to Calculate simple interest 
+#include<stdio.h>
+int main(){
+
+float p,r,t;
+
+printf("Enter the value of p:); //p=principal
+scanf("%f",&p);
+printf("Enter the value of r:); //r=rate of interest 
+scanf("%f",&r);
+printf("Enter the value of t:); //t=time period
+scanf("%f",&t);
+
+float SI=(p*r*t)/100; //SI=simple interest 
+printf("the value of simple interest is:%.2f",SI);
+return 0;
+}
